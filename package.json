@@ -1,0 +1,33 @@
+{
+  "name":           "uupaa.devtoolsdetector.js",
+  "version":        "0.8.0",
+  "description":    "",
+  "url":            "https://github.com/uupaa/DevToolsDetector.js",
+  "keywords":       ["DevTools", "detection", "util", "uupaa"],
+  "repository": {
+    "type":         "git",
+    "url":          "https://github.com/uupaa/DevToolsDetector.js.git"
+  },
+  "scripts": {
+    "start":        "node node_modules/uupaa.minify.js --keep --output ./lib/DevToolsDetector.min.js ./lib/DevToolsDetector.js",
+    "test":         "NODE_ENV=production NODE_PATH=lib node --harmony test/index.node.js; open test/index.html"
+  },
+  "dependencies": {
+    "uupaa.task.js":    "",
+    "uupaa.spec.js":    "",
+    "uupaa.device.js":  ""
+  },
+  "devDependencies": {
+    "uupaa.help.js":    "",
+    "uupaa.task.js":    "",
+    "uupaa.test.js":    "",
+    "uupaa.minify.js":  "",
+    "uupaa.spec.js":    "",
+    "uupaa.device.js":  ""
+  },
+  "lib":            "./lib/",
+  "main":           "./index.js",
+  "author":         "uupaa <uupaa.js@gmail.com>",
+  "license":        "MIT",
+  "contributors":   []
+}

@@ -24,7 +24,6 @@ function testiOSDevToolsDetector(next) {
      */
     next && next.pass();
 
-
     var spec = Device(Spec());
     var lastState = false; // true is detected
 
@@ -43,6 +42,8 @@ function testiOSDevToolsDetector(next) {
             }
         });
     }
-    _proceed();
+    if (spec.OS.TYPE === "iOS") {
+        _proceed();
+    }
 }
 

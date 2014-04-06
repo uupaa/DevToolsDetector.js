@@ -1,29 +1,38 @@
 {
   "name":           "uupaa.devtoolsdetector.js",
-  "version":        "0.8.0",
-  "description":    "",
+  "version":        "0.8.1",
+  "description":    "Detect devtools.",
   "url":            "https://github.com/uupaa/DevToolsDetector.js",
-  "keywords":       ["DevTools", "detection", "util", "uupaa"],
+  "keywords":       ["DevTools", "util", "uupaa", "WebModule"],
   "repository": {
     "type":         "git",
     "url":          "https://github.com/uupaa/DevToolsDetector.js.git"
   },
   "scripts": {
-    "start":        "node node_modules/uupaa.minify.js --keep --output ./lib/DevToolsDetector.min.js ./lib/DevToolsDetector.js",
-    "test":         "NODE_ENV=production NODE_PATH=lib node --harmony test/index.node.js; open test/index.html"
+    "watch":        "node node_modules/uupaa.watch.js --verbose --action build",
+    "build":        "node node_modules/uupaa.minify.js --verbose --strict --keep --pretty",
+    "build-simple": "node node_modules/uupaa.minify.js --verbose --strict --keep --pretty --nowrap --simple",
+    "build-release":"node node_modules/uupaa.minify.js --verbose --strict --module",
+    "test":         "NODE_ENV=production NODE_PATH=lib node --harmony test/index.node.js; open test/index.html",
+    "lint":         "node node_modules/uupaa.plato.js; open lint/plato/index.html"
+  },
+  "x-build": {
+    "inputs":       ["lib/DevToolsDetector.js"],
+    "output":       "release/DevToolsDetector.min.js"
   },
   "dependencies": {
-    "uupaa.task.js":    "",
     "uupaa.spec.js":    "",
-    "uupaa.device.js":  ""
+    "uupaa.useragent.js": ""
   },
   "devDependencies": {
+    "uupaa.console.js": "",
+    "uupaa.valid.js":   "",
     "uupaa.help.js":    "",
     "uupaa.task.js":    "",
     "uupaa.test.js":    "",
-    "uupaa.minify.js":  "",
-    "uupaa.spec.js":    "",
-    "uupaa.device.js":  ""
+    "uupaa.watch.js":   "",
+    "uupaa.plato.js":   "",
+    "uupaa.minify.js":  ""
   },
   "lib":            "./lib/",
   "main":           "./index.js",

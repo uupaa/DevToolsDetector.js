@@ -1,6 +1,6 @@
 {
   "name":           "uupaa.devtoolsdetector.js",
-  "version":        "0.8.2",
+  "version":        "0.8.3",
   "description":    "Detect devtools.",
   "url":            "https://github.com/uupaa/DevToolsDetector.js",
   "keywords":       ["DevTools", "util", "uupaa", "WebModule"],

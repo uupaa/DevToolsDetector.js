@@ -5,15 +5,7 @@
 onmessage = function(event) {
     var baseDir = event.data.baseDir;
 
-    importScripts(baseDir + "../node_modules/uupaa.console.js/lib/Console.js");
-    importScripts(baseDir + "../node_modules/uupaa.valid.js/lib/Valid.js");
-    importScripts(baseDir + "../node_modules/uupaa.task.js/lib/Task.js");
-    importScripts(baseDir + "../node_modules/uupaa.test.js/lib/Test.js");
-    importScripts(baseDir + "../node_modules/uupaa.spec.js/lib/Spec.js");
-    importScripts(baseDir + "../node_modules/uupaa.useragent.js/lib/UserAgent.js");
-    importScripts(baseDir + "../lib/DevToolsDetector.js");
-    importScripts(baseDir + "../release/DevToolsDetector.min.js");
-    importScripts(baseDir + "./test.js");
+    
 
     self.postMessage({ error: self.errorMessage || "" });
 };
@@ -28,5 +20,5 @@ onmessage = function(event) {
 <script src="../lib/DevToolsDetector.js"></script>
 <script src="../release/DevToolsDetector.min.js"></script>
 <script src="./test.js"></script>
-</body></html>
 
+</body></html>

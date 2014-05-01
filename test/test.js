@@ -1,18 +1,17 @@
-new Test().add([
-        testiOSDevToolsDetector,
-    ]).run(function(err, test) {
-        if (0) {
-            err || test.worker(function(err, test) {
-                if (!err && typeof DevToolsDetector_ !== "undefined") {
-                    var name = Test.swap(DevToolsDetector, DevToolsDetector_);
+var ModuleTest = (function(global) {
 
-                    new Test(test).run(function(err, test) {
-                        Test.undo(name);
-                    });
-                }
-            });
-        }
-    });
+return new Test({
+        disable:    false,
+        node:       false,
+        browser:    true,
+        worker:     false,
+        button:     false,
+        both:       false,
+        primary:    global["DevToolsDetector"],
+        secondary:  global["DevToolsDetector_"],
+    }).add([
+        testiOSDevToolsDetector,
+    ]).run().clone();
 
 function testiOSDevToolsDetector(next) {
 
@@ -37,4 +36,6 @@ function testiOSDevToolsDetector(next) {
         _proceed();
     }
 }
+
+})((this || 0).self || global);
 

@@ -1,0 +1,177 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.6
+3 info using node@v0.10.26
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/obara.takao/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/tmp.tgz
+13 verbose folder .
+14 info prepublish uupaa.devtoolsdetector.js@0.8.5
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/obara.takao/.npm/1f1177db-tar.lock
+17 silly lockFile ac245345-2441-0-22137054055929184-tmp-tgz tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/tmp.tgz
+18 verbose lock tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/tmp.tgz /Users/obara.takao/.npm/ac245345-2441-0-22137054055929184-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile ac245345-2441-0-22137054055929184-tmp-tgz tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/tmp.tgz
+22 silly lockFile ac245345-2441-0-22137054055929184-tmp-tgz tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/tmp.tgz
+23 verbose tar unpack /var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/tmp.tgz
+24 silly lockFile a4060226-2441-0-22137054055929184-package tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/package
+25 verbose lock tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/package /Users/obara.takao/.npm/a4060226-2441-0-22137054055929184-package.lock
+26 silly lockFile ac245345-2441-0-22137054055929184-tmp-tgz tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/tmp.tgz
+27 verbose lock tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/tmp.tgz /Users/obara.takao/.npm/ac245345-2441-0-22137054055929184-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm extractEntry LICENSE
+33 silly gunzTarPerm extractEntry index.js
+34 silly gunzTarPerm extractEntry lib/DevToolsDetector.js
+35 silly gunzTarPerm extractEntry .travis.yml
+36 silly gunzTarPerm extractEntry lint/plato/README.md
+37 silly gunzTarPerm extractEntry release/README.md
+38 silly gunzTarPerm extractEntry .jshintrc
+39 silly gunzTarPerm extractEntry test/index.node.js
+40 silly gunzTarPerm extractEntry test/test.js
+41 silly gunzTarPerm extractEntry test/index.html
+42 silly lockFile a4060226-2441-0-22137054055929184-package tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/package
+43 silly lockFile a4060226-2441-0-22137054055929184-package tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/package
+44 silly lockFile ac245345-2441-0-22137054055929184-tmp-tgz tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/tmp.tgz
+45 silly lockFile ac245345-2441-0-22137054055929184-tmp-tgz tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/tmp.tgz
+46 verbose tar pack [ '/Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package.tgz',
+46 verbose tar pack   '/var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/package' ]
+47 verbose tarball /Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package.tgz
+48 verbose folder /var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/package
+49 silly lockFile a4060226-2441-0-22137054055929184-package tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/package
+50 verbose lock tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/package /Users/obara.takao/.npm/a4060226-2441-0-22137054055929184-package.lock
+51 silly lockFile b871a132-olsdetector-js-0-8-5-package-tgz tar:///Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package.tgz
+52 verbose lock tar:///Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package.tgz /Users/obara.takao/.npm/b871a132-olsdetector-js-0-8-5-package-tgz.lock
+53 silly lockFile a4060226-2441-0-22137054055929184-package tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/package
+54 silly lockFile a4060226-2441-0-22137054055929184-package tar:///var/folders/vl/pzwvsw6s6jl_s2gtydc1srq5ffvzlg/T/npm-14961-MYClTrmR/1398977162441-0.22137054055929184/package
+55 silly lockFile b871a132-olsdetector-js-0-8-5-package-tgz tar:///Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package.tgz
+56 silly lockFile b871a132-olsdetector-js-0-8-5-package-tgz tar:///Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package.tgz
+57 silly lockFile 75a96015-evtoolsdetector-js-0-8-5-package /Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package
+58 verbose lock /Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package /Users/obara.takao/.npm/75a96015-evtoolsdetector-js-0-8-5-package.lock
+59 silly lockFile 75a96015-evtoolsdetector-js-0-8-5-package /Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package
+60 silly lockFile 75a96015-evtoolsdetector-js-0-8-5-package /Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package
+61 verbose tar unpack /Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package.tgz
+62 silly lockFile 30864366-evtoolsdetector-js-0-8-5-package tar:///Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package
+63 verbose lock tar:///Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package /Users/obara.takao/.npm/30864366-evtoolsdetector-js-0-8-5-package.lock
+64 silly lockFile b871a132-olsdetector-js-0-8-5-package-tgz tar:///Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package.tgz
+65 verbose lock tar:///Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package.tgz /Users/obara.takao/.npm/b871a132-olsdetector-js-0-8-5-package-tgz.lock
+66 silly gunzTarPerm modes [ '755', '644' ]
+67 silly gunzTarPerm extractEntry package.json
+68 silly gunzTarPerm extractEntry .npmignore
+69 silly gunzTarPerm extractEntry README.md
+70 silly gunzTarPerm extractEntry LICENSE
+71 silly gunzTarPerm extractEntry index.js
+72 silly gunzTarPerm extractEntry .jshintrc
+73 silly gunzTarPerm extractEntry lib/DevToolsDetector.js
+74 silly gunzTarPerm extractEntry lint/plato/README.md
+75 silly gunzTarPerm extractEntry .travis.yml
+76 silly gunzTarPerm extractEntry release/README.md
+77 silly gunzTarPerm extractEntry test/index.node.js
+78 silly gunzTarPerm extractEntry test/test.js
+79 silly gunzTarPerm extractEntry test/index.html
+80 silly lockFile 30864366-evtoolsdetector-js-0-8-5-package tar:///Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package
+81 silly lockFile 30864366-evtoolsdetector-js-0-8-5-package tar:///Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package
+82 silly lockFile b871a132-olsdetector-js-0-8-5-package-tgz tar:///Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package.tgz
+83 silly lockFile b871a132-olsdetector-js-0-8-5-package-tgz tar:///Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package.tgz
+84 verbose chmod /Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package.tgz 644
+85 verbose chown /Users/obara.takao/.npm/uupaa.devtoolsdetector.js/0.8.5/package.tgz [ 1559101039, 1522739515 ]
+86 silly lockFile 3a52ce78- .
+87 silly lockFile 3a52ce78- .
+88 silly publish { name: 'uupaa.devtoolsdetector.js',
+88 silly publish   version: '0.8.5',
+88 silly publish   description: 'Detect devtools.',
+88 silly publish   url: 'https://github.com/uupaa/DevToolsDetector.js',
+88 silly publish   keywords: [ 'DevTools', 'util', 'uupaa', 'WebModule' ],
+88 silly publish   repository:
+88 silly publish    { type: 'git',
+88 silly publish      url: 'https://github.com/uupaa/DevToolsDetector.js.git' },
+88 silly publish   scripts:
+88 silly publish    { watch: 'node node_modules/uupaa.watch.js --verbose --action build',
+88 silly publish      build: 'node node_modules/uupaa.minify.js --verbose --strict --keep --pretty',
+88 silly publish      'build-simple': 'node node_modules/uupaa.minify.js --verbose --strict --keep --pretty --nowrap --simple',
+88 silly publish      'build-release': 'node node_modules/uupaa.minify.js --verbose --strict --module',
+88 silly publish      test: 'npm run test-node; npm run test-browser',
+88 silly publish      'test-page': 'node node_modules/uupaa.test.js/bin/TestPage.js --verbose',
+88 silly publish      'test-debug': 'NODE_ENV=production NODE_PATH=lib node --debug-brk --harmony test/index.node.js',
+88 silly publish      'test-node': 'NODE_ENV=production NODE_PATH=lib node --harmony test/index.node.js',
+88 silly publish      'test-browser': 'open test/index.html',
+88 silly publish      lint: 'node node_modules/uupaa.plato.js; open lint/plato/index.html' },
+88 silly publish   'x-build':
+88 silly publish    { files: [ 'lib/DevToolsDetector.js' ],
+88 silly publish      output: 'release/DevToolsDetector.min.js',
+88 silly publish      target: [ 'browser' ],
+88 silly publish      module: { develop: [Object], release: [Object] } },
+88 silly publish   dependencies: { 'uupaa.spec.js': '', 'uupaa.useragent.js': '' },
+88 silly publish   devDependencies:
+88 silly publish    { 'uupaa.nodemodule.js': '',
+88 silly publish      'uupaa.console.js': '',
+88 silly publish      'uupaa.valid.js': '',
+88 silly publish      'uupaa.help.js': '',
+88 silly publish      'uupaa.task.js': '',
+88 silly publish      'uupaa.test.js': '',
+88 silly publish      'uupaa.watch.js': '',
+88 silly publish      'uupaa.plato.js': '',
+88 silly publish      'uupaa.minify.js': '' },
+88 silly publish   lib: './lib/',
+88 silly publish   main: './index.js',
+88 silly publish   author: { name: 'uupaa', email: 'uupaa.js@gmail.com' },
+88 silly publish   license: 'MIT',
+88 silly publish   contributors: [],
+88 silly publish   readme: '=========\nDevToolsDetector.js\n=========\n\n![](https://travis-ci.org/uupaa/DevToolsDetector.js.png)\n\nDetect DevTools.\n\n# Document\n\n- [WebModule](https://github.com/uupaa/WebModule) ([Slide](http://uupaa.github.io/Slide/slide/WebModule/index.html))\n- [Development](https://github.com/uupaa/WebModule/wiki/Development)\n- [DevToolsDetector.js wiki](https://github.com/uupaa/DevToolsDetector.js/wiki/DevToolsDetector)\n\n\n# How to use\n\n```js\n<script src="lib/Spec.js">\n<script src="lib/UserAgent.js">\n<script src="lib/DevToolsDetector.js">\n<script>\n\n    var spec = UserAgent(Spec());\n    var lastState = null; // true is detected\n\n    function _proceed() {\n        DevToolsDetector(spec, function(err, yes) {\n            var currentState = yes ? true : false;\n\n            if (lastState !== currentState) {\n                document.body.style.backgroundColor = currentState ? "yellow" : "blue";\n                lastState = currentState;\n            }\n            setTimeout(_proceed, 2 * 1000);\n        });\n    }\n    _proceed();\n\n</script>\n```\n',
+88 silly publish   readmeFilename: 'README.md',
+88 silly publish   bugs: { url: 'https://github.com/uupaa/DevToolsDetector.js/issues' },
+88 silly publish   homepage: 'https://github.com/uupaa/DevToolsDetector.js',
+88 silly publish   _id: 'uupaa.devtoolsdetector.js@0.8.5',
+88 silly publish   dist: { shasum: 'b1ddcf11e39ed8a827ffb7a14cd2e89f8befcc2b' },
+88 silly publish   _from: '.' }
+89 verbose url raw uupaa.devtoolsdetector.js
+90 verbose url resolving [ 'https://registry.npmjs.org/', './uupaa.devtoolsdetector.js' ]
+91 verbose url resolved https://registry.npmjs.org/uupaa.devtoolsdetector.js
+92 info trying registry request attempt 1 at 05:46:02
+93 http PUT https://registry.npmjs.org/uupaa.devtoolsdetector.js
+94 http 403 https://registry.npmjs.org/uupaa.devtoolsdetector.js
+95 error publish Failed PUT 403
+96 error Error: forbidden cannot modify pre-existing version: 0.8.5
+96 error old={"name":"uupaa.devtoolsdetector.js","version":"0.8.5","description":"Detect devtools.","url":"https://github.com/uupaa/DevToolsDetector.js","keywords":["DevTools","util","uupaa","WebModule"],"repository":{"type":"git","url":"https://github.com/uupaa/DevToolsDetector.js.git"},"scripts":{"watch":"node node_modules/uupaa.watch.js --verbose --action build","build":"node node_modules/uupaa.minify.js --verbose --strict --keep --pretty","build-simple":"node node_modules/uupaa.minify.js --verbose --strict --keep --pretty --nowrap --simple","build-release":"node node_modules/uupaa.minify.js --verbose --strict --module","test":"npm run test-node; npm run test-browser","test-page":"node node_modules/uupaa.test.js/bin/TestPage.js --verbose","test-node":"NODE_ENV=production NODE_PATH=lib node --harmony test/index.node.js","test-browser":"open test/index.html","lint":"node node_modules/uupaa.plato.js; open lint/plato/index.html"},"x-build":{"files":["lib/DevToolsDetector.js"],"output":"release/DevToolsDetector.min.js","target":["browser"]},"dependencies":{"uupaa.spec.js":"","uupaa.useragent.js":""},"devDependencies":{"uupaa.nodemodule.js":"","uupaa.console.js":"","uupaa.valid.js":"","uupaa.help.js":"","uupaa.task.js":"","uupaa.test.js":"","uupaa.watch.js":"","uupaa.plato.js":"","uupaa.minify.js":""},"lib":"./lib/","main":"./index.js","author":{"name":"uupaa","email":"uupaa.js@gmail.com"},"license":"MIT","contributors":[],"bugs":{"url":"https://github.com/uupaa/DevToolsDetector.js/issues"},"homepage":"https://github.com/uupaa/DevToolsDetector.js","_id":"uupaa.devtoolsdetector.js@0.8.5","dist":{"shasum":"05ad4d68c98f2260a0ee2d2261369a3e1d8f7544","tarball":"http://registry.npmjs.org/uupaa.devtoolsdetector.js/-/uupaa.devtoolsdetector.js-0.8.5.tgz"},"_from":".","_npmVersion":"1.4.6","_npmUser":{"name":"uupaa","email":"uupaa.js@gmail.com"},"maintainers":[{"name":"uupaa","email":"uupaa.js@gmail.com"}]}
+96 error new={"name":"uupaa.devtoolsdetector.js","version":"0.8.5","description":"Detect devtools.","url":"https://github.com/uupaa/DevToolsDetector.js","keywords":["DevTools","util","uupaa","WebModule"],"repository":{"type":"git","url":"https://github.com/uupaa/DevToolsDetector.js.git"},"scripts":{"watch":"node node_modules/uupaa.watch.js --verbose --action build","build":"node node_modules/uupaa.minify.js --verbose --strict --keep --pretty","build-simple":"node node_modules/uupaa.minify.js --verbose --strict --keep --pretty --nowrap --simple","build-release":"node node_modules/uupaa.minify.js --verbose --strict --module","test":"npm run test-node; npm run test-browser","test-page":"node node_modules/uupaa.test.js/bin/TestPage.js --verbose","test-debug":"NODE_ENV=production NODE_PATH=lib node --debug-brk --harmony test/index.node.js","test-node":"NODE_ENV=production NODE_PATH=lib node --harmony test/index.node.js","test-browser":"open test/index.html","lint":"node node_modules/uupaa.plato.js; open lint/plato/index.html"},"x-build":{"files":["lib/DevToolsDetector.js"],"output":"release/DevToolsDetector.min.js","target":["browser"],"module":{"develop":["uupaa.valid.js"],"release":["uupaa.spec.js","uupaa.useragent.js"]}},"dependencies":{"uupaa.spec.js":"","uupaa.useragent.js":""},"devDependencies":{"uupaa.nodemodule.js":"","uupaa.console.js":"","uupaa.valid.js":"","uupaa.help.js":"","uupaa.task.js":"","uupaa.test.js":"","uupaa.watch.js":"","uupaa.plato.js":"","uupaa.minify.js":""},"lib":"./lib/","main":"./index.js","author":{"name":"uupaa","email":"uupaa.js@gmail.com"},"license":"MIT","contributors":[],"readme":"=========\u000aDevToolsDetector.js\u000a=========\u000a\u000a![](https://travis-ci.org/uupaa/DevToolsDetector.js.png)\u000a\u000aDetect DevTools.\u000a\u000a# Document\u000a\u000a- [WebModule](https://github.com/uupaa/WebModule) ([Slide](http://uupaa.github.io/Slide/slide/WebModule/index.html))\u000a- [Development](https://github.com/uupaa/WebModule/wiki/Development)\u000a- [DevToolsDetector.js wiki](https://github.com/uupaa/DevToolsDetector.js/wiki/DevToolsDetector)\u000a\u000a\u000a# How to use\u000a\u000a```js\u000a<script src=\"lib/Spec.js\">\u000a<script src=\"lib/UserAgent.js\">\u000a<script src=\"lib/DevToolsDetector.js\">\u000a<script>\u000a\u000a    var spec = UserAgent(Spec());\u000a    var lastState = null; // true is detected\u000a\u000a    function _proceed() {\u000a        DevToolsDetector(spec, function(err, yes) {\u000a            var currentState = yes ? true : false;\u000a\u000a            if (lastState !== currentState) {\u000a                document.body.style.backgroundColor = currentState ? \"yellow\" : \"blue\";\u000a                lastState = currentState;\u000a            }\u000a            setTimeout(_proceed, 2 * 1000);\u000a        });\u000a    }\u000a    _proceed();\u000a\u000a</script>\u000a```\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/uupaa/DevToolsDetector.js/issues"},"homepage":"https://github.com/uupaa/DevToolsDetector.js","_id":"uupaa.devtoolsdetector.js@0.8.5","dist":{"shasum":"b1ddcf11e39ed8a827ffb7a14cd2e89f8befcc2b","tarball":"http://registry.npmjs.org/uupaa.devtoolsdetector.js/-/uupaa.devtoolsdetector.js-0.8.5.tgz"},"_from":".","_npmVersion":"1.4.6","_npmUser":{"name":"uupaa","email":"uupaa.js@gmail.com"},"maintainers":[{"name":"uupaa","email":"uupaa.js@gmail.com"}]}: uupaa.devtoolsdetector.js
+96 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:254:14)
+96 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:192:65)
+96 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+96 error     at Request.EventEmitter.emit (events.js:98:17)
+96 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+96 error     at Request.EventEmitter.emit (events.js:117:20)
+96 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+96 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+96 error     at _stream_readable.js:920:16
+96 error     at process._tickCallback (node.js:415:13)
+97 error If you need help, you may report this *entire* log,
+97 error including the npm and node versions, at:
+97 error     <http://github.com/npm/npm/issues>
+98 error System Darwin 12.5.0
+99 error command "node" "/usr/local/bin/npm" "publish"
+100 error cwd /Users/obara.takao/oss/my/DevToolsDetector.js
+101 error node -v v0.10.26
+102 error npm -v 1.4.6
+103 verbose exit [ 1, true ]

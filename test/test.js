@@ -1,14 +1,16 @@
-var ModuleTest = (function(global) {
+var ModuleTestDevToolsDetector = (function(global) {
 
-return new Test({
+var _inNode    = "process"        in global;
+var _inWorker  = "WorkerLocation" in global;
+var _inBrowser = "document"       in global;
+
+return new Test("DevToolsDetector", {
         disable:    false,
-        node:       false,
         browser:    true,
         worker:     false,
+        node:       false,
         button:     false,
         both:       false,
-        primary:    global["DevToolsDetector"],
-        secondary:  global["DevToolsDetector_"],
     }).add([
         testiOSDevToolsDetector,
     ]).run().clone();

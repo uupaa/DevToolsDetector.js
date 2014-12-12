@@ -4,6 +4,14 @@
 
 <script id="worker" type="javascript/worker">
 onmessage = function(event) {
+
+    if (!self.console) {
+        self.console = function() {};
+        self.console.log = function() {};
+        self.console.warn = function() {};
+        self.console.error = function() {};
+    }
+
     self.MESSAGE = event.data;
 
     
@@ -12,16 +20,18 @@ onmessage = function(event) {
 };
 </script>
 
-<script src="../node_modules/uupaa.reflection.js/lib/Reflection.js"></script>
-<script src="../node_modules/uupaa.console.js/lib/Console.js"></script>
-<script src="../node_modules/uupaa.help.js/lib/Help.js"></script>
-<script src="../node_modules/uupaa.valid.js/lib/Valid.js"></script>
-<script src="../node_modules/uupaa.task.js/lib/Task.js"></script>
-<script src="../node_modules/uupaa.test.js/lib/Test.js"></script>
 <script src="../node_modules/uupaa.spec.js/lib/Spec.js"></script>
-<script src="../node_modules/uupaa.useragent.js/lib/UserAgent.js"></script>
+<script src="../node_modules/uupaa.spec.js/lib/Browser.js"></script>
+<script src="../node_modules/uupaa.spec.js/lib/Media.js"></script>
+<script src="../node_modules/uupaa.spec.js/lib/Storage.js"></script>
+<script src="../node_modules/uupaa.task.js/lib/Task.js"></script>
+<script src="../../WebModule/lib/Console.js"></script>
+<script src="../../WebModule/lib/Help.js"></script>
+<script src="../../WebModule/lib/Valid.js"></script>
+<script src="../../WebModule/lib/TestTask.js"></script>
+<script src="../../WebModule/lib/Test.js"></script>
 <script src="../lib/DevToolsDetector.js"></script>
 <script src="../release/DevToolsDetector.min.js"></script>
-<script src="./test.js?=_1402655826856"></script>
+<script src="./testcase.js"></script>
 
 </body></html>

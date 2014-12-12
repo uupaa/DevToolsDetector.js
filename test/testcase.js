@@ -22,7 +22,7 @@ function testiOSDevToolsDetector(next) {
     var lastState = null; // true is detected
 
     function _proceed() {
-        var spec = UserAgent(Spec());
+        var spec = new Spec();
 
         DevToolsDetector(spec, function(err, yes) {
             var currentState = yes ? true : false;
